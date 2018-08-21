@@ -1,0 +1,30 @@
+#header {
+  background-color: white;
+}
+
+#header-container {
+  margin: 0 auto;
+  height: 80px;
+}
+
+#header-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 8px 10px;
+}
+#header-container img {
+  height: 65px;
+}
+
+#map a {
+  color: #3F3F3F;
+  font-size: 18px;
+}
+
+#map a:hover {
+  color: #C5A278;
+  text-decoration: none;
+}

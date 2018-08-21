@@ -10,6 +10,24 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
- *= require_self
  */
+
+@import "variables/personal_variables";
+@import "variables/bootstrap_variables";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "components/*";
+@import "pages/*";
+
+html {
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: #E9CFAF;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 25px;
+}
