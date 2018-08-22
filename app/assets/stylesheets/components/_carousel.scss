@@ -1,55 +1,49 @@
-
-body {
-  font-family: Helvetica;
-}
 .carousel-wrapper {
-  background-color: orange;
+  background-color: transparent;
 }
+
 .carousel-container {
-  display: flex;
-  flex-wrap: row nowrap;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  padding: 30px;
-  border: 2px solid white;
-  margin: 10px;
+  background-color: transparent;
   width: 90%;
-  height: 90%;
+  height: auto;
+  margin-top: 15px;
+  padding-top: 55px;
 }
-.list-inline {
+
+.img-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
   align-items: center;
 }
-.list-inline-item {
-  display: flex;
-  padding: 1em;
-  border-radius: 2em;
-}
-#carrousel{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    height: 300px;
-    width: 600px;
-    margin: auto;
-}
-#carrousel ul li{
-    position:absolute;
-    top:0;
-    left:0;
-}
-.next, .prev{
-  color: white;
-  font-size: 2em;
-    height: 60px;
-    width: 60px;
-    border-radius: 100%;
-    border: 2px solid white;
-    margin-left: 5px;
-    margin-top: 5px;
-    text-align: center;
 
+#carousel{
+  height: 50%;
+  margin: auto;
+  padding: auto;
+}
+
+#carousel img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 5px 5px 55px black;
+}
+
+.next, .prev{
+  color: $white;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.choice1, .choice2, .choice3
+{
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-left: 40%;
+  border-radius: 100%;
+  border: 2px solid $white;
+  margin-top: 25px;
 }

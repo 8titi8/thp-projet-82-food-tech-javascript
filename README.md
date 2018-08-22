@@ -1,24 +1,33 @@
-# README
+Il était une fois... 📖
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Mathilde  🐳, Gaëlle 🐞, Thomas 🐰 et THP 
 
-Things you may want to cover:
+![bandeau esprit d'équipe](https://zupimages.net/up/18/33/8gvk.png)
 
-* Ruby version
+## 📋 Récap :
 
-* System dependencies
+Ce projet est la version en production du projet startup foodtech. Nous avons codé :
 
-* Configuration
+* **Un super site**
+* **une landing page express de restaurant avec un système de tabulation**
+* **Dans la tab, un onglet Présentation, un ongle menu et un onglet de ton choix**
+* **Un super carroussel**
 
-* Database creation
+## 🚀 Lien Heroku :
 
-* Database initialization
+https://issa-nissa.herokuapp.com/
 
-* How to run the test suite
+Made with ❤️ and 💦
 
-* Services (job queues, cache servers, search engines, etc.)
+## 🖥 Localement :
 
-* Deployment instructions
+* **Lancer** `$ git clone "lien"`
+* **Lancer** `$ bundle install`
+* **Lancer** `$ rails server`
+* **Se rendre sur localhost:3000 via votre navigateur**
 
-* ...
+## 💎 Les gems :
+
+* gem 'bootstrap-sass'
+* gem 'autoprefixer-rails'
+* gem 'jquery-rails'

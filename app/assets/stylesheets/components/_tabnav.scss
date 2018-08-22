@@ -20,14 +20,13 @@
     color: $light-beige;
     font-weight: bold;
     font-size: 18px;
-    float: left;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
     border-bottom: 3px solid transparent;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 /*  Change la couleur du bouton lors du survol */
 .tab button:hover {
