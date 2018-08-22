@@ -26,7 +26,10 @@ html {
 }
 
 body {
-  background-color: #E9CFAF;
+  background: image-url('fond-cuisine-1920-reverse.jpg');
+  /*linear-gradient(00deg, rgba(233, 207, 175, 0.7) 10%, rgba(63, 63, 63,0.9) 90%), */
+  background-position: cover;
+  background-repeat: no-repeat;
   min-height: 100%;
   position: relative;
   padding-bottom: 25px;

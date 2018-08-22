@@ -1,0 +1,49 @@
+/*style du wrapper*/
+.tab-wrapper {
+    background-color: transparent;
+}
+
+.tab-container {
+    background-color: transparent;
+    width: 70%;
+    height: auto;
+}
+
+/* Style de la tab */
+.tab {
+    overflow: hidden;
+}
+
+/* Style des boutons utilisés pour afficher le contenu */
+.tab button {
+    background-color: transparent;
+    color: $light-beige;
+    font-weight: bold;
+    font-size: 18px;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
+    margin-bottom: 15px;
+}
+/*  Change la couleur du bouton lors du survol */
+.tab button:hover {
+    color: $beige;
+    border-bottom: 3px solid $beige;
+}
+/* Créé une classe d'onglet courant lorsque l'on utilise tabnav_a
+.tab button {
+    background-color: #ccc;
+}
+*/
+
+/* Style the tab content */
+.tabcontent {
+    background-color: rgba(255, 255, 255, 0.6);
+    display: none;
+    padding: 10px 12px;
+    border-top: 2px solid $gray;
+}

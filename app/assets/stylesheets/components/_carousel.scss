@@ -1,0 +1,55 @@
+
+body {
+  font-family: Helvetica;
+}
+.carousel-wrapper {
+  background-color: orange;
+}
+.carousel-container {
+  display: flex;
+  flex-wrap: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  padding: 30px;
+  border: 2px solid white;
+  margin: 10px;
+  width: 90%;
+  height: 90%;
+}
+.list-inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.list-inline-item {
+  display: flex;
+  padding: 1em;
+  border-radius: 2em;
+}
+#carrousel{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+}
+#carrousel ul li{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.next, .prev{
+  color: white;
+  font-size: 2em;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+
+}

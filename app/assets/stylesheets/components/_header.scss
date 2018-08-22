@@ -1,5 +1,5 @@
 #header {
-  background-color: white;
+  background-color: $white;
 }
 
 #header-container {
@@ -20,11 +20,11 @@
 }
 
 #map a {
-  color: #3F3F3F;
+  color: $gray;
   font-size: 18px;
 }
 
 #map a:hover {
-  color: #C5A278;
+  color: $beige;
   text-decoration: none;
 }
